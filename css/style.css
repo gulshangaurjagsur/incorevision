@@ -9971,3 +9971,16 @@ h6 {
 .logo img{
   width: 150px;
 }
+.client-box {
+    border: 1px solid #e5e5e5;
+    padding: 15px 10px;
+    font-weight: 600;
+    background: #fff;
+    transition: all 0.3s ease;
+}
+
+.client-box:hover {
+    background: #ff6b5a;
+    color: #fff;
+    border-color: #ff6b5a;
+}
