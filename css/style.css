@@ -530,10 +530,7 @@ mark,
     justify-content: center;
     align-items: center;
 }
-.ourTeam img.img-thumbnail{
-  width: 250px;
-  height: 250px;
-}
+
 .img-thumbnail i{
   font-size: 32px;
 }
@@ -9951,7 +9948,10 @@ h6 {
     line-height: 1.2;
     text-shadow: 0 4px 15px rgba(0,0,0,0.6);
 }
-
+.ourTeam img.img-thumbnail{
+  width: 250px;
+  height: 250px;
+}
 /* Responsive */
 @media (max-width: 768px) {
     .hero-title {
@@ -9962,4 +9962,8 @@ h6 {
         letter-spacing: 2px;
         font-size: 14px;
     }
+    .ourTeam img.img-thumbnail{
+  width: 150px;
+  height: 150px;
+}
 }
