@@ -9934,3 +9934,32 @@ h6 {
 .fa-whatsapp:before{
   font-size: 32px;
 }
+.hero-subtitle {
+    color: #ff6b5a;                 /* soft accent */
+    letter-spacing: 4px;            /* text bahar aayega */
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+.hero-title {
+    color: #ffffff;
+    font-size: 40px;                /* controlled size */
+    font-weight: 700;               /* bold but clean */
+    letter-spacing: 2px;
+    line-height: 1.2;
+    text-shadow: 0 4px 15px rgba(0,0,0,0.6);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 34px;
+        letter-spacing: 1px;
+    }
+    .hero-subtitle {
+        letter-spacing: 2px;
+        font-size: 14px;
+    }
+}
